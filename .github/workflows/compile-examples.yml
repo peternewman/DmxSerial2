@@ -66,6 +66,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Checkout repository
+        uses: ammaraskar/gcc-problem-matcher@master
+
       - name: Compile examples
         uses: arduino/compile-sketches@v1
         with:
